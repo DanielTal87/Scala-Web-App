@@ -19,7 +19,7 @@ class CouponController @Inject()(cc: ControllerComponents) extends AbstractContr
     */
   def show = Action { implicit request =>
     val mongo = new MongoDB()
-    if (mongo.isDBEmpty) {sdasd
+    if (mongo.isDBEmpty) {
       mongo.addCoupons()
     }
     val couponsMatrix: Array[Array[String]] = mongo.findAllCoupons
