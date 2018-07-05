@@ -1,0 +1,17 @@
+.blue{
+    color: #002752;
+    text-align: center;
+    font-style: italic;
+}
+.black{
+    color: black;
+    text-align: center;
+    font-size: 100%;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0 0 3px white;
+}
+.black.hover{
+    color: black;
+    font-weight: bold;
+}
