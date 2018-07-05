@@ -9,9 +9,9 @@ The data saved on MongoDB.
 
 ## Technologies
 * Play Framework 2.x
-* REStful web service
 * MongoDB
-
+* Casbah
+* REStful web service
 
 ## Authors
 * Daniel Tal - [LinkeIn](https://www.linkedin.com/in/daniel-tal/)
