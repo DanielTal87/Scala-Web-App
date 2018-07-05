@@ -5,6 +5,13 @@ import play.api.mvc._
 import services.MongoDB
 
 /**
+  * Authors:
+  * Hadas Barel
+  * Daniel Tal
+  */
+
+
+/**
   * This controller creates an `Action` to handle HTTP requests to the
   * application's home page.
   */
