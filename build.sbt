@@ -14,4 +14,4 @@ libraryDependencies ++= Seq( jdbc , ehcache , ws , specs2 % Test , guice )
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )
 
-libraryDependencies += "org.mongodb.scala" %% "mongo-scala-driver" % "2.1.0"
+libraryDependencies += "org.mongodb" %% "casbah" % "3.1.1"

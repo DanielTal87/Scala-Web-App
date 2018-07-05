@@ -1,7 +1,12 @@
 package controllers
 
 import javax.inject._
+
+import com.mongodb.casbah.MongoCursor
 import play.api.mvc._
+import services.MongoDB
+
+
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -17,7 +22,7 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
    * a path of `/`.
    */
   def index = Action {
-    Ok(views.html.index("Your new application is ready."))
+    Ok(views.html.index("welcome"))
   }
 
 }
